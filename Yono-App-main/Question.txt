@@ -1,0 +1,48 @@
+You need to write a main class which includes a set of
+methods/classes which are doing the following Bank Transactions
+using Collections in Java.
+1. Adding a New Customer
+	Account No – (AutoGenerate 9 digits)
+	Customer Name
+	Account Type (Savings/Current)
+	Balance
+	Minimum Balance
+	Mobile Number
+	Email Id
+	ATM Pin (Autogenerate 4 digits)
+2. Updating Customer Details
+	Account No
+	Mobile Number (ask for new mobile number)
+	Email Id (ask for new email id)
+3. Deleting a Customer
+	Ask for Account number to delete a Customer
+4. Depositing Money into Customer Account
+	If Amount is greater than 50k then ask the customer to
+	enter his/her PAN Card number
+5. Withdraw Money from Customer Account
+	First calculate Available Balance (difference of balance
+	and min balance)
+	e.g. balance is 7k min bal is 1k then available balance is 6k
+	If withdrawal amount is greater than available balance
+	then show error Message as “Insufficient funds..!!!”.
+	If Amount is greater than 50k then ask the customer to
+	enter his/her PAN Card number
+6. Show Balance of a Customer
+	Ask for Account number to display Customer details
+7. Display the list of all Customers in the Bank
+	Just show all customer details
+8. Display Customer Details of a specific Customer
+	Ask for Account number to display the Customer details
+	If user enters any account number which is not there in
+	our Bank we have to show “Account number not
+	found..!!!”
+
+9. Transferring Money from One Account to Another account
+	Ask for to Account number and amount to transfer
+	After successful transaction show message
+	“ Transferred Amount Successfully”
+Validations:
+Account Number should be a 9 digit number which accepts only digits
+Mobile Number should be a 10 digit number which accepts only digits
+Customer Name should not be more than 30 characters
+Balance amount should be numeric only.
